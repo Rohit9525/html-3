@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        h1{
+            margin-left:-35%
+        }
+#container {
+    margin-top:5%;
+    margin-left:32%;
+    background-color: rgba(255, 255, 255, 0.192);
+    margin-right: 30%;
+    padding-left: 10%;
+    padding-top:5px;
+    padding-bottom:10px;
+
+    
+    
+    
+
+}
+#form1{
+    margin:0;
+    padding: 15px;
+    padding-top: 20px;
+    background-size: 100%;
+    
+    padding-bottom: 17%;
+    
+    
+    background-color: rgba(8, 14, 16, 0.589);
+    
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    
+}
+
+input[type=text], input[type=password] {
+width: 65%;
+margin: 8px 0px;
+padding: 10px 20px;
+
+box-sizing:border-box;
+}
+#login{
+    padding: 10px;
+    
+    width:25%;
+    box-sizing: border-box;
+    background-color: rgb(51, 82, 192);
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#cancel{
+    padding: 10px;
+    background-color: rgb(103, 107, 106);
+    margin-left:21%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#cancel:hover{
+    background-color: rgb(192, 192, 192);
+}
+#login:hover{
+    background-color: rgb(84, 115, 217);
+
+
+}
+label{
+    
+}
+#forgetcolor{
+
+color:azure;
+
+
+}
+
+#register{
+    
+    color: azure;
+
+
+
+    
+}
+#links{
+    margin-top:20px;
+}
+
+#loginpart{
+    margin-left: 3%;
+}
+</style>
+</head>
+<body>
+<form id="form1">
+<div id="container">
+<h1 ><center>Sign Up</center></h1> 
+<div>   
+<label for="username">Username:</label>
+</div>
+<div>
+<input type="text" name="username" id="username" placeholder="Username" required>
+</div>
+<div>
+<label for="password">Password:</label>
+</div>
+<div>
+<input type="password" name="password" id="password" placeholder="Password" required>
+</div>
+<div>
+
+<div id="loginpart"><input type="checkbox" name="check" id="check" checked="checked">
+    <span style="color:azure">Remember me</span>
+<button type="submit" id="login">Login</button></div>
+<div><button type="cancel" id="cancel" onclick="location.href='index.html'">Cancel</button>
+</div>
+</div>
+    </div>
+   <div id="links"> <center><a href="forget password.html" id="forgetcolor">
+    <abbr title="Users can recover their password through this link">Forget password?</abbr></a></center>
+        <span ><center><a href="new user registration.html" id="register">
+            <abbr title="New User Can Register through this link">New User Registration
+                
+            </abbr></a></center></span>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

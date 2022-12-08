@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    a{
+        color: azure;
+    }
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-color: rgba(74, 147, 189, 0.7);
+
+}
+
+form{
+    margin:0;
+    padding: 15px;
+    padding-top: 20px;
+    background-size: 100%;
+    
+    padding-bottom: 3%;
+    
+    
+    background-color: rgba(8, 14, 16, 0.589);
+    
+}
+input[type=text] , input[type=phone] {
+width:45%;
+margin-bottom: 10px;
+padding: 7px;
+box-sizing: border-box;
+
+
+}
+#country{
+    margin-left: -14%;
+    padding-top: 5px;
+}
+#mail{
+    margin-top: 10px;
+}
+#select{
+    width:15%;
+    padding:3px;
+
+}
+#submit{
+
+    margin-top: 20px;
+    padding: 10px;
+    width:15% ;
+    border:none;
+    border-radius: 7px;
+    background-color: rgb(51, 82, 192);
+    color:white;
+}
+
+#submit:hover{
+    background-color: rgb(84, 115, 217);
+    cursor: pointer;
+
+}
+.texts{
+    margin-left: 28%;
+}
+#content{
+    background-color: rgba(255, 255, 255, 0.304);
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 5px;
+    padding-bottom:12px;
+    margin-top: 5%;
+}
+#gender{
+    margin-left: 6%;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+  <form>
+
+    
+    <div id="content"><div><div><div><div>
+        <h1><center>New Registration</h1></center>
+<div><label for="first name" class="texts">First Name:</label>
+</div>
+    <center>
+<input type="text" name="first name" id="first" placeholder="Enter first name" required></div></center>
+<div><label for="last name" class="texts">Last Name:</label></div>
+<center><input type="text" name="last name" id="last" placeholder="Enter last name" required></div></center>
+<div><label for="mobile" class="texts">Mobile no:</label></div>
+<center><input type="phone" name="mobile" id="mobile" placeholder="Enter mobile no" required></div></center>
+<center><div id="gender"><label for="Gender" >Gender:</label>
+<label for="male">
+<input type="radio" name="gender" id="male">Male</label>
+<label for="female">
+    <input type="radio" name="gender" id="female">Female</label>
+    <label for="Other">
+        <input type="radio" name="gender" id="other">Other</label>    </center></div>
+       <div id="country"><center><label for="country" >Country:</label>
+        <select id="select">
+            <option value="none">Select</option>
+            <option value="france">France</option>
+            <option value="germany">Germany</option>
+            <option value="italy">Italy</option>
+            <option value="japan">Japan</option>
+            <option value="russia">Russia</option>
+            <option value="kingdom">United Kingdom</option>
+            <option value="us">United States</option>
+            <option value="india">India</option>
+
+            </select></div></center> 
+           <div><br><label for="email" class="texts">Email:</label></div>
+           <center> <input type="text" name="email" id="email" placeholder="             xyz@gmail.com" required>
+        </center> 
+        <span>
+           <center> <label for="term&condition">
+            <input type="checkbox" name="check" checked="checked">I agree to all the 
+            <a href="terms and conditions.html">Terms&Conditions</a></label>
+           </center> </span>
+        
+    <center><button type="submit" id="submit">Submit</button></center>
+        
+        </div>
+</div>
+
+</form>
+</body>
+</html>
